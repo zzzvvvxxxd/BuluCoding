@@ -9,6 +9,14 @@
 
 > 完全二叉树有严格的形状要求：从根结点起每一层从左到右填充。一棵高度为d的完全二叉树除了d-1层以外，每一层都是满的。底层叶子结点集中在左边的若干位置上。
 
+##Index
+
+----
+
+###LeetCode
+[Maximum Depth of Binary Tree]()
+
+----
 
 ##定义
 #### C++
@@ -31,3 +39,4 @@ class TreeNode(object):
 		self.left = None
 		self.right = None
 ```
+
