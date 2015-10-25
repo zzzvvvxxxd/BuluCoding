@@ -14,6 +14,10 @@
 ----
 
 ###LeetCode
+[Binary Tree Preorder Traversal 前序遍历]()
+
+> 遍历
+
 [Maximum Depth of Binary Tree 二叉树最大深度](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/BinaryTree/leetcode/Maximum%20Depth%20of%20Binary%20Tree.md)
 
 ----
