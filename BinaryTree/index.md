@@ -14,7 +14,7 @@
 ----
 
 ###LeetCode
-[Binary Tree Preorder Traversal 前序遍历]()
+[Binary Tree Preorder Traversal 前序遍历](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/BinaryTree/leetcode/Binary%20Tree%20Preorder%20Traversal.md)
 
 > 遍历
 
