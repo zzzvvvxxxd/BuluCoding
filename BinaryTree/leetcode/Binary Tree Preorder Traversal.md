@@ -42,6 +42,46 @@ public:
 };
 ```
 
+####Python(1)
+```Python
+class Solution(object):
+    def preorderTraversal(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[int]
+        """
+        r = list()
+        s = list()
+        while root or s:
+            while root:
+                r.append(root.val)
+                s.append(root)
+                root = root.left
+            if s:
+                root = s.pop()
+                root = root.right
+        return r
+```
+
+####Pythoh(2)
+```Python
+class Solution(object):
+def preorderTraversal(self, root):
+    """
+    :type root: TreeNode
+    :rtype: List[int]
+    """
+    if not root: return []
+    stack, res=[root], []
+    while stack:
+        node=stack.pop()
+        res+=[node.val]
+        if node.right: stack+=[node.right]
+        if node.left: stack+=[node.left]
+    return res
+```
+
+
 ##ตÝน้
 
 ####C++
