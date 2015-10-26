@@ -45,7 +45,7 @@ public:
 ##ตÝน้
 
 ####C++
-```
+```C++
 class Solution {
 public:
     vector<int> v;
