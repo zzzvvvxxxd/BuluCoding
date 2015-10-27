@@ -14,10 +14,11 @@
 ----
 
 ###LeetCode
-[Binary Tree Preorder Traversal 前序遍历](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/BinaryTree/leetcode/Binary%20Tree%20Preorder%20Traversal.md)
-[Binary Tree Postorder Traversal 后序遍历](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/BinaryTree/leetcode/Binary%20Tree%20Postorder%20Traversal.md)
+[Binary Tree Preorder Traversal 前序遍历](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/BinaryTree/leetcode/Binary%20Tree%20Preorder%20Traversal.md)  
 
-[Maximum Depth of Binary Tree 二叉树最大深度](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/BinaryTree/leetcode/Maximum%20Depth%20of%20Binary%20Tree.md)
+[Binary Tree Postorder Traversal 后序遍历](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/BinaryTree/leetcode/Binary%20Tree%20Postorder%20Traversal.md)  
+
+[Maximum Depth of Binary Tree 二叉树最大深度](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/BinaryTree/leetcode/Maximum%20Depth%20of%20Binary%20Tree.md)  
 
 ----
 
