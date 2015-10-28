@@ -1,7 +1,7 @@
-# Geometry
-# ¼¸ºÎ
+ï»¿# Geometry
+# å‡ ä½•
 
-[Ê×Ò³](https://github.com/zzzvvvxxxd/BuluCoding)
+[é¦–é¡µ](https://github.com/zzzvvvxxxd/BuluCoding)
 
 ##Leetcode
 [Rectangle Area]()

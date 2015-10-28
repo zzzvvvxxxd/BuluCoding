@@ -1,16 +1,16 @@
-# Rectangle Area
+ï»¿# Rectangle Area
 
 
-[·µ»Ø]()
+[è¿”å›](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/Geometry/index.md)
 
 
-**ÌâÄ¿ÃèÊö£º**  
+**é¢˜ç›®æè¿°ï¼š**  
 Find the total area covered by two rectilinear rectangles in a 2D plane.  
 Each rectangle is defined by its bottom left corner and top right corner as shown in the figure.  
-![Í¼Æ¬](https://leetcode.com/static/images/problemset/rectangle_area.png)
+![å›¾ç‰‡](https://leetcode.com/static/images/problemset/rectangle_area.png)
 
 
-[ÌâÄ¿µØÖ·](https://leetcode.com/problems/rectangle-area/)
+[é¢˜ç›®åœ°å€](https://leetcode.com/problems/rectangle-area/)
 
 
 ```C++
