@@ -1,12 +1,12 @@
-# ��������
+﻿# 快速排序
 
-[����](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/Sort/index.md)
+[返回](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/Sort/index.md)
 
-���ѡ��һ����Ԫ(pivot)��Ȼ�󽫴�����Ԫ��Ԫ�ط���������ұߣ�С����Ԫ�ķ�������ߣ�Ȼ�����Ƶݹ�ض�����Ԫ�غ��Ҳ��Ԫ�طֱ������ͬ�Ĳ�����  
+随机选择一个主元(pivot)，然后将大于主元的元素放于数组的右边，小于主元的放置在左边，然后类似递归地对左侧的元素和右侧的元素分别进行相同的操作。  
 
-��������֮���ԽϿ죬������ô���⣺ÿѡ��һ��pivot���ڶ���������һ���֮����ͣ����λ�þ������յ�λ�ã��������������  
+快速排序之所以较快，可以这么理解：每选择一个pivot，在对其进行左右划分之后，它停留的位置就是最终的位置，而不像插入排序。  
 
-##����
+##代码
 ```C++
 void QuickSort::qsort(int* &A, int s, int e) {
 	if(s < e){
@@ -29,9 +29,9 @@ void QuickSort::qsort(int* &A, int s, int e) {
 
 int* QuickSort::quickSort(int* A, int n){
 	if(n > 1){
-		//���ȼ��
+		//长度检查
 		qsort(A, 0, n - 1);
-		//��ӡ
+		//打印
 		for (int i = 0; i < n; i++) {
 			cout << A[i] << " ";
 		}
@@ -42,16 +42,16 @@ int* QuickSort::quickSort(int* A, int n){
 }
 ```
 
-####ʱ�临�Ӷ�
+####时间复杂度
 > O(NlogN)
 
-####����������������?������
-> ���ţ�  
-ÿ��ѡ�����Ԫǡ���з�  
-���  
-��Ԫѡȡa[0]������£����Ѿ�����õ�Ԫ�ؽ��������˻�ΪO(N^2)
+####快速排序的最优情况?最坏情况？
+> 最优：  
+每次选择的主元恰好中分  
+最坏：  
+主元选取a[0]的情况下，对已经排序好的元素进行排序，退化为O(N^2)
 
-####pivotȡ��
-> * �����һ��Ԫ��a[0]
-  * ѡ��ͷ���С�β��3����������λ��
-  * ����������������Ч�ʲ��ߣ����Ի�������ʹ��
+####pivot取法
+> * 数组第一个元素a[0]
+  * 选择头、中、尾（3个数）的中位数
+  * 随机，但是随机函数效率不高，所以基本不会使用
