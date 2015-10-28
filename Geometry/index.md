@@ -4,4 +4,4 @@
 [首页](https://github.com/zzzvvvxxxd/BuluCoding)
 
 ##Leetcode
-[Rectangle Area]()
+[Rectangle Area](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/Geometry/leetcode/Rectangle%20Area.md)
