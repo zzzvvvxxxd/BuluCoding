@@ -1,6 +1,6 @@
 ﻿#斐波纳契数列
 
-[返回]()
+[返回](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/Math/index.md)
 
 
 [题目地址](http://www.lintcode.com/zh-cn/problem/fibonacci/)
@@ -21,7 +21,7 @@
 * 给定 10，返回 34  
 
 ####C++
-```
+```C++
 class Solution{
 public:
     /**
