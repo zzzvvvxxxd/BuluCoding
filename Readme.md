@@ -4,6 +4,7 @@
 
 ##目录
 
-* Geometry 几何 [Here](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/Geometry/index.md)
-* Binary Tree 二叉树 [Here](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/BinaryTree/index.md)
-* Sort 排序 [Here](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/Sort/index.md)
+* 1. Geometry 几何 [Here](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/Geometry/index.md)
+* 2. Binary Tree 二叉树 [Here](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/BinaryTree/index.md)
+* 3. Sort 排序 [Here](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/Sort/index.md)
+* 4. Array&List 数组和链表 [Here](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/Array%26List/index.md)
