@@ -1,5 +1,7 @@
 #BuluCoding
 
+**我一定要变强！**
+
 > From [lintcode] [leetcode] [topcoder]
 
 ##目录
