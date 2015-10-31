@@ -1,9 +1,9 @@
-#Ô¼Éª·ò»·
+ï»¿#çº¦ç‘Ÿå¤«çŽ¯
 
-[·µ»Ø](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/Math/index.md)  
+[è¿”å›ž](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/Math/index.md)  
 
 ####C++
-Êý×éÊµÏÖ
+æ•°ç»„å®žçŽ°
 ```C++
 #include <iostream>
 #include <vector>
@@ -18,7 +18,7 @@ public:
     joseph_circle(int len) : length(len) {
         next_persons = new int[length];
         for(int i = 0; i < length; i++) {
-            next_persons[i] = (i + 1) % length;       //±£´æµÄÊÇÏÂÒ»¸öÔªËØµÄÎ»ÖÃ
+            next_persons[i] = (i + 1) % length;       //ä¿å­˜çš„æ˜¯ä¸‹ä¸€ä¸ªå…ƒç´ çš„ä½ç½®
         }
         tail = length - 1;
     }
