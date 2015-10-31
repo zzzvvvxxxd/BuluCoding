@@ -32,3 +32,20 @@ int main() {
 }
 
 ```
+
+####迭代解法
+```C++
+int binary_search(int* a, int key, int begin, int end)
+{
+	while(begin < end){
+		int middle = (begin + end) / 2;
+		if(a[middle] < key)
+			begin = middle + 1;
+		else if (a[middle] > key)
+			end = middle;
+		else
+			return middle;
+	}
+	return -1;
+}
+```
