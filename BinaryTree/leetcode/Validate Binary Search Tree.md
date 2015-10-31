@@ -1,6 +1,11 @@
 ﻿# Validate Binary Search Tree
 # 验证二叉查找树
 
+[back](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/BinaryTree/index.md)
+
+
+[题目地址](https://leetcode.com/problems/validate-binary-search-tree/)
+
 ##描述  
 给出一个二叉树，判断其是否是合法的二叉查找树。  
 
