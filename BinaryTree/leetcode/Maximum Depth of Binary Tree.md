@@ -1,7 +1,7 @@
 # Maximum Depth of Binary Tree
 # 二叉树的最大深度
 
-[back](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/BinaryTree/index.md)
+[返回](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/BinaryTree/index.md)
 
 题目链接：[Here](https://leetcode.com/problems/maximum-depth-of-binary-tree/)  
 关于LeetCode的二叉树，参考：[Here](https://leetcode.com/faq/#binary-tree)  

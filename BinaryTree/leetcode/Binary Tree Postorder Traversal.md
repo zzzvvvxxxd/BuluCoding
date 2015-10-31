@@ -1,7 +1,7 @@
 ﻿# Binary Tree Postorder Traversal
 # 后序遍历二叉树
 
-[back](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/BinaryTree/index.md)
+[返回](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/BinaryTree/index.md)
 
 ##递归
 

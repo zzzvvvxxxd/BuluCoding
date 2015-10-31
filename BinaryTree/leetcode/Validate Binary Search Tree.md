@@ -1,7 +1,7 @@
 ﻿# Validate Binary Search Tree
 # 验证二叉查找树
 
-[back](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/BinaryTree/index.md)
+[返回](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/BinaryTree/index.md)
 
 
 [题目地址](https://leetcode.com/problems/validate-binary-search-tree/)
