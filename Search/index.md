@@ -4,4 +4,4 @@
 
 ##基础
 
-[折半查找]()
+[折半查找](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/Search/basic/BiSearch.md)
