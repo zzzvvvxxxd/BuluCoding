@@ -43,6 +43,64 @@ int* QuickSort::quickSort(int* A, int n){
 }
 ```
 
+####median选取pivot的实现
+```C++
+int QuickSort::median3(int* &A, int s, int e){
+	int center = (s + e) / 2;
+	if (A[s] > A[center]) swap(A, s, center);
+	if (A[s] > A[e]) swap(A, s, e);
+	if (A[center] > A[e]) swap(A, center, e);
+	swap(A, center, e - 1);			//	将pivot隐藏到右边
+	// 只需要考虑A[s + 1] ... A[e - 2]
+	return A[e - 1];
+}
+
+void QuickSort::qsort(int* &A, int s, int e) {
+	if (e > s)
+	{
+		int pivot = median3(A, s, e);
+		if ((e - s) < 2) return;
+		int i = s, j = e - 1;
+		while(1)
+		{
+			while(A[++i] < pivot) {}		//median为这里的做好了边界，所以不需要边界检查
+			while(A[--j] > pivot) {}
+			if(i < j){
+				this->swap(A, i, j);
+			}
+			else break;
+		}
+		this->swap(A, i, e - 1); 
+		this->qsort(A, s, i - 1);
+		this->qsort(A, i + 1, e);
+	}
+}
+
+
+int* QuickSort::quickSort(int* A, int n){
+	this->qsort(A, 0, n - 1);
+	this->print(A, 0, n-1);
+	return A;
+}
+
+void QuickSort::swap(int* &A, int i, int j){
+	int temp = A[i];
+	A[i] = A[j];
+	A[j] = temp;
+}
+
+/*
+ * 打印数组
+ */
+void QuickSort::print(int* A, int s, int e) {
+	for(int i = s; i <= e; i++) {
+		cout << A[i] << " ";
+	}
+	cout << endl;
+}
+```
+
+
 ##2. 总结
 ####2.1 时间复杂度
 > O(NlogN)

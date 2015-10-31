@@ -12,3 +12,4 @@
 * 4. Array&List 数组和链表 [Here](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/Array%26List/index.md)
 * 5. Math 数学相关 [Here](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/Math/index.md)
 * 6. Search 搜索&查找 [Here](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/Search/index.md)
+* 7. String 字符串 [Here]()
