@@ -2,7 +2,10 @@
 
 [返回](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/Math/index.md)  
 
-使用辗转相除法，具体可以百度
+使用辗转相除法:
+
+* 当m>n, m和n的最大公约数等于n和m%n的最大公约数   
+* 当n=0, m和n的最大公约数是m   
 
 ```C++
 int mcd_mod(int m, int n)
