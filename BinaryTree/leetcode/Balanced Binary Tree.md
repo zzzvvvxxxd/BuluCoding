@@ -6,7 +6,7 @@
 
 [题目链接](https://leetcode.com/problems/balanced-binary-tree/)
 
-##递归
+##1. 递归
 使用递归的depth函数，检查左右子树的高度差。  
 **注意**：根据平衡二叉树定义，不仅要判断根结点，要求所有的结点的子树都满足平衡条件。 
 

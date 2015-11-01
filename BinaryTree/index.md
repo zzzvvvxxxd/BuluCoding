@@ -24,7 +24,7 @@
 
 [Validate Binary Search Tree 验证二叉查找树](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/BinaryTree/leetcode/Validate%20Binary%20Search%20Tree.md)
 
-[Balanced Binary Tree 平衡二叉树检查]()
+[Balanced Binary Tree 验证平衡二叉树](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/BinaryTree/leetcode/Balanced%20Binary%20Tree.md)
 
 ----
 
