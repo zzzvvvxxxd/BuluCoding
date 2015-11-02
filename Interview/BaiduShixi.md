@@ -25,9 +25,9 @@
 
 
 ##【二面】
-**1. 给定两个日志文件，每行一条日志格式如下**
+**1. 给定两个日志文件，每行一条日志格式如下：**   
 文件A：
-> queryid \t [exp_id_list] \t time  
+> queryid   \t   [exp_id_list]   \t   time  
 
 
 文件B：
