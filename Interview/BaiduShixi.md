@@ -1,16 +1,18 @@
 #百度实习面试
 
+> 过几天整理一下答案
+
 ##电面
 自我介绍，实验室工作
-####1. const和define的区别
+**1. const和define的区别**
 
-####2. static
+**2. static**
 
-####3. C++程序内存分配(栈，堆，代码段等等)
+**3. C++程序内存分配(栈，堆，代码段等等)**
 
-####4. inline
+**4. inline**
 
-####5. struct 和 union 的内存分配机制，和计算
+**5. struct 和 union 的内存分配机制，和计算**
 
 ##一面
 **1. 判断两个二叉树是否相等**
@@ -25,7 +27,9 @@
 ##二面
 **1. 给定两个日志文件，每行一条日志格式如下**
 文件A：
-> queryid \t [exp_id_list] \t time
+> queryid \t [exp_id_list] \t time  
+
+
 文件B：
 > queryid \t [exp_id_list]
 
