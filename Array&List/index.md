@@ -9,4 +9,5 @@
 1. [反转链表](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/Array%26List/SwordToOffer/Reverse%20List.md)  
 
 ##LintCode
-1. [删除链表中所有值为val的元素](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/Array%26List/LintCode/Remove_Linked_List_Elements.md)  
+1. [删除链表中所有值为val的元素](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/Array%26List/LintCode/Remove_Linked_List_Elements.md)
+2. [链表求和](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/Array%26List/LintCode/Add_two_numbers.md)  

@@ -1,7 +1,10 @@
 #Remove Linked List Elements
 #删除链表中指定值val的所有元素
 
-题目地址：[Here](http://www.lintcode.com/zh-cn/problem/remove-linked-list-elements/)
+题目地址：[Here](http://www.lintcode.com/zh-cn/problem/remove-linked-list-elements/)  
+[返回](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/Array%26List/index.md)  
+
+
 
 样例：给出链表`1->2->3->3->4->5`，和`val=3`，需要返回删除所有值为3的元素之后的链表：`1->2->4->5` 
 
