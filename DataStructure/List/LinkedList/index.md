@@ -1,5 +1,6 @@
 #链表
 > Linked List
+这里只介绍单链表
 
 ----
 
@@ -103,4 +104,31 @@ count == index - 1
 )
 ```
 
+###Reverse
+列表反转
+```C++
+void reverse() {
+    if(head ==  NULL) {
+        return;
+    }
+    Node *next_node, *current_node;
+    current_node = head->next;
+    head->next = NULL;
+    while(current_node != NULL) {
+        next_node = current_node->next;
+        current_node->next = head;
+        head = current_node;
+        current_node = next_node;
+    }
+}
+```
+
+> c = h
+  hn = NULL
+  while(c != NULL) {
+      n = cn;
+      cn = h;
+      h = c;
+      c = n;
+  }
 ----
