@@ -50,11 +50,13 @@ public:
     }
 };
 int main() {
-    LinkList linklist;
-    for (int i = 1; i <= 10; i++) {
-        Node *node = new Node(i);
-        linklist.insert(node, i - 1);
-    }
-    linklist.output();
+    LinkList l1;
+    Node *n1 = new Node(5);
+    Node *n2 = new Node(1);
+    Node *n3 = new Node(3);
+    l1.insert(n1, 0);
+    l1.insert(n2, 0);
+    l1.insert(n3, 0);
+    l1.output();
     return 0;
 }
