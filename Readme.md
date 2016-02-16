@@ -5,6 +5,7 @@
 > From [lintcode] [leetcode] [topcoder]
 
 ##目录
+* 0. Data Structure 数据结构 [Here](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/DataStructure/index.md)  
 
 * 1. Geometry 几何 [Here](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/Geometry/index.md)
 * 2. Binary Tree 二叉树 [Here](https://github.com/zzzvvvxxxd/BuluCoding/blob/master/BinaryTree/index.md)
