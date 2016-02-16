@@ -89,10 +89,10 @@ if(count == index - 1 && current_node->next != NULL) {
 }
 ```
 
-insert和delete_node的移动代码主题是一致的，一个while，一个if
-while用来移动到index指定位置前一个位置，或者因为index过大使得current_node停留在最后一个节点处
-if就是用来判断当前位置是否在index-1，如果不在则说明index过大（这就解决了边界条件中的第三点：index大于链表长度）
-另外，insert允许插入在最后一个节点的下一个位置，但是delete_node不能
+insert和delete_node的移动代码主体是一致的，一个while，一个if  
+while用来移动到index指定位置前一个位置，或者因为index过大使得current_node停留在最后一个节点处  
+if就是用来判断当前位置是否在index-1，如果不在则说明index过大（这就解决了边界条件中的第三点：index大于链表长度）  
+另外，insert允许插入在最后一个节点的下一个位置，但是delete_node不能  
 
 
 ----
